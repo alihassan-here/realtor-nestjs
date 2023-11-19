@@ -29,7 +29,7 @@ model Home{
   id   Int @id @default(autoincrement())
   address String
   number_of_bedrooms Int
-  number_of_batrooms Float
+  number_of_bathrooms Float
   city String
   listed_date DateTime @default(now())
   price Float
